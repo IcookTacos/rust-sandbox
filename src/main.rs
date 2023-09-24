@@ -33,4 +33,6 @@ fn task1(){
     rustbyexample::hello_world();
     rustbyexample::formatted_print();
     rustbyexample::debug_print();
+    println!("Task complete");
+    process::exit(1);
 }
