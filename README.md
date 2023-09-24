@@ -4,6 +4,6 @@ This is where I work on non-functional projects to learn more rust. Currently I 
 
 # 🚀 usage
 
-'''bash
+```bash
 cargo run task1
-'''
+```
