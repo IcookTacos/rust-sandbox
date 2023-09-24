@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
+mod rustbyexample;
+fn main(){
+    rustbyexample::hello_world();
 }
