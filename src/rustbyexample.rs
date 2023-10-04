@@ -1,13 +1,7 @@
-/*
- * Task 1.0
- */
 pub fn hello_world(){
     println!("Hello World");
 }
 
-/*
- * Task 1.2.1
- */
 pub fn formatted_print(){
     let x = 5;
     println!("x = {}", x);
@@ -20,9 +14,6 @@ pub fn formatted_print(){
     println!("Base 16 (hexadecimal) : {:X}", 69420); 
 }
 
-/*
- * Task 1.2.2
- */
 pub fn debug_print(){
     #[allow(dead_code)]
     #[derive(Debug)]
@@ -35,5 +26,4 @@ pub fn debug_print(){
     let age = 29;
     let peter = Person{name, age};
     println!("Using the debug to print person struct: \n{:#?}", peter);
-
 }
